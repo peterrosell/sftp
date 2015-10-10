@@ -1,5 +1,5 @@
-FROM debian:wheezy
-MAINTAINER Adrian Dvergsdal [atmoz.net]
+FROM debian:jessie
+MAINTAINER Przemek Wesołek <przemek@wesolek.net>
 
 # Install OpenSSH
 RUN apt-get update && \
