@@ -15,4 +15,6 @@ COPY entrypoint /
 
 EXPOSE 22
 
+ENV STORAGE_DIR storage
+
 ENTRYPOINT ["/entrypoint"]
